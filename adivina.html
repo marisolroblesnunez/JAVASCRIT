@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>adivina</title>
+    <style>
+        *{text-align: center;}
+        body{
+            height: 100vh;
+            align-items: center;
+            display: flex;
+        }
+        h1{
+            color: rgb(110, 14, 236);
+        }
+        
+        p{
+            color: rgb(255, 0, 179);
+        }
+        .juntos{
+            background-color: bisque;
+            width: 100%;
+            border-radius: 5px;
+            padding: 40px;
+            margin: 20%;
+        }
+        button{
+            padding: 1rem 2rem;
+            margin-top: 1rem;
+            text-transform: uppercase;
+            border-radius: 5px;
+            border: none;
+            font-weight: bold;
+            color: rgba(139, 9, 85, 0.548);
+            background-color: rgb(230, 233, 60);
+        }
+        button:hover{
+            background-color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <div class="juntos">
+        <h1>Cosas que hacer</h1>
+        <p id="ejercicio"></p>
+        
+        <!-- <button onclick="location.reload ();">Prueba Suerte</button> -->
+        <button id="probar">Prueba Suerte</button>
+    </div>
+    <script src="js/adivina.js"></script>
+</body>
+</html>
